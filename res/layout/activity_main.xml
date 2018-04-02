@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.prac7database.MainActivity">
+
+    "
+
+    <Button
+        android:id="@+id/btnst"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_700"
+        android:text="Student Details"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="240dp"
+        tools:layout_editor_absoluteX="92dp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/ss"
+        android:layout_alignLeft="@+id/acad"
+        android:layout_alignStart="@+id/acad" />
+    <Button
+        android:id="@+id/acad"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_700"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="Academic Details"
+        tools:layout_editor_absoluteY="300dp"
+        tools:layout_editor_absoluteX="92dp"
+        android:layout_below="@+id/btnst"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+    <Button
+        android:id="@+id/send_sms"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_700"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="Send SMS"
+        tools:layout_editor_absoluteY="362dp"
+        tools:layout_editor_absoluteX="92dp"
+        android:layout_below="@+id/acad"
+        android:layout_alignLeft="@+id/acad"
+        android:layout_alignStart="@+id/acad"
+        android:layout_marginTop="23dp" />
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_700"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="Exit"
+        tools:layout_editor_absoluteY="425dp"
+        tools:layout_editor_absoluteX="92dp"
+        android:layout_below="@+id/send_sms"
+        android:layout_alignLeft="@+id/send_sms"
+        android:layout_alignStart="@+id/send_sms"
+        android:layout_marginTop="23dp" />
+</RelativeLayout>
